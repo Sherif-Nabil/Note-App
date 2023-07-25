@@ -187,16 +187,7 @@ export default class NoteAppBuilder {
         });
 
         // empty note area message
-        const addNoteSVG = `            
-        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)">
-            <g id="SVGRepo_bgCarrier" stroke-width="0" />
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
-                stroke-width="0.03" />
-            <g id="SVGRepo_iconCarrier">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM7 11V8H4V7H7V4H8V7H11V8H8V11H7Z" />
-            </g>
-        </svg>`
-        this.notesArea.insertAdjacentHTML('beforeend', `<div class= "notes-area__message"><h1>Click on ${addNoteSVG} to add new note</h1></div>`)
+        this.notesArea.insertAdjacentHTML('beforeend', `<div class= "notes-area__message"><h1>Add your first note</h1></div>`)
     }
 
     _newNotePopup() {
