@@ -412,6 +412,8 @@ label.content-section__toggle-theme-checked svg {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    opacity: 0.5;
+    text-transform: capitalize;
 }
 
 .content-section__notes-area>.notes-area__message svg {
