@@ -1,11 +1,11 @@
-# Note Taking Web Application
-This is a simple note-taking web application that uses only vanilla JavaScript and the browser's local storage API. The app allows users to create, edit, and organize their notes. Notes can be added to favorites, searched, and filtered using their color or by favorite tag. The app is responsive for all screen widths and works on all major browsers.
+# Note-Taking Web Application
+This is a simple note-taking web application that uses only vanilla JavaScript and the browser's local storage API. The app allows users to create, edit, and organize their notes. Notes can be added to favorites, searched, and filtered using their color or by favorite tag. The app is responsive for all screen sizes and works on all major browsers.
 
 # Features
 - Create, edit, and delete notes
 - Tag notes as favorites for easy search
 - Works on all major browsers
-- Responsive for all screen
+- Responsive on all screens
 - Dark and Light theme
 - Capability to search and filter notes
 
@@ -35,5 +35,5 @@ This is a simple note-taking web application that uses only vanilla JavaScript a
 
 
 # How to Use
-To use the note-taking app, simply open the app in your browser. You can create a new note by clicking the ( + ) button. Once you have created a note, you can edit it by clicking the "Edit" button. You can also add notes by clicking the "add to favorite" button. You can filter the notes by their color by choosing one or more colors in the filter section. Also don't forget to try the dark theme by toggling the button next to the search bar.
+To use the note-taking app, simply open the app in your browser. You can create a new note by clicking the ( + ) button. Once you have created a note, you can edit it by clicking the "Edit" button. You can also tag notes by clicking the "add to favorite" button. You can filter the notes by their color by choosing one or more colors in the filter section. Also don't forget to try the dark theme by toggling the button next to the search bar.
 
